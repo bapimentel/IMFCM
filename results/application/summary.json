@@ -1,0 +1,110 @@
+{
+  "n": 945,
+  "n complete IHC": 753,
+  "m": {
+    "d1": 1.5,
+    "d2": 1.3,
+    "d3": 2.0
+  },
+  "agreement": {
+    "IMFCM": {
+      "ARI": 0.4105,
+      "NMI": 0.5087,
+      "Accuracy (matched)": 0.7048,
+      "FR": 0.7547,
+      "ARI (IHC groups)": 0.3359
+    },
+    "FCM": {
+      "ARI": 0.4186,
+      "NMI": 0.5145,
+      "Accuracy (matched)": 0.7122,
+      "FR": 0.7554,
+      "ARI (IHC groups)": 0.3371
+    },
+    "GK": {
+      "ARI": 0.3772,
+      "NMI": 0.4339,
+      "Accuracy (matched)": 0.6836,
+      "FR": 0.7304,
+      "ARI (IHC groups)": 0.3578
+    },
+    "MFCM": {
+      "ARI": 0.0269,
+      "NMI": 0.032,
+      "Accuracy (matched)": 0.3386,
+      "FR": 0.7514,
+      "ARI (IHC groups)": 0.0227
+    },
+    "FCM-D": {
+      "ARI": 0.3587,
+      "NMI": 0.4499,
+      "Accuracy (matched)": 0.6476,
+      "FR": 0.7585,
+      "ARI (IHC groups)": 0.3331
+    },
+    "FCM-S": {
+      "ARI": 0.401,
+      "NMI": 0.4692,
+      "Accuracy (matched)": 0.6952,
+      "FR": 0.7562,
+      "ARI (IHC groups)": 0.3545
+    },
+    "FCM-WD": {
+      "ARI": 0.3951,
+      "NMI": 0.4612,
+      "Accuracy (matched)": 0.6963,
+      "FR": 0.8668,
+      "ARI (IHC groups)": 0.323
+    },
+    "FCM-MFCM": {
+      "ARI": 0.4195,
+      "NMI": 0.5056,
+      "Accuracy (matched)": 0.7132,
+      "FR": 0.7559,
+      "ARI (IHC groups)": 0.3329
+    }
+  },
+  "signature_agreement": {
+    "IMFCM": 1.0,
+    "PAM50": 1.0
+  },
+  "rank_agreement": {
+    "CTR_vs_d": {
+      "LumA": 1.0,
+      "LumB": 0.4,
+      "Her2": 0.9,
+      "Basal": 1.0,
+      "All cells": 0.626
+    },
+    "A_vs_homog": {
+      "LumA": 0.9,
+      "LumB": -0.3,
+      "Her2": 0.8,
+      "Basal": -0.9,
+      "All cells": 0.355
+    }
+  },
+  "a_ij range": [
+    0.18245473100205867,
+    0.21696316497191315
+  ],
+  "top-3 CTR share": {
+    "LumA": 0.9804298121061745,
+    "LumB": 0.9338013788688461,
+    "Her2": 0.9482300164812777,
+    "Basal": 0.8581635432483763
+  },
+  "luminal A/B swaps among discordant": 210,
+  "Basal cluster membership (median), ER+ vs ER- by IHC": [
+    0.5980587247724788,
+    0.7534884974388734
+  ],
+  "median_boot_ARI": 0.9095486642387529,
+  "membership": {
+    "median largest membership (concordant)": 0.6351547813462127,
+    "median largest membership (discordant)": 0.5539579601821852,
+    "n discordant": 279.0,
+    "Mann-Whitney p": 3.737308346470483e-12,
+    "AUC": 0.6410604152539636
+  }
+}
